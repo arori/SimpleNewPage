@@ -1,0 +1,12 @@
+{
+    "name": "Simple New Tab Page",
+    "version": "1.0",
+    "description": "Make simple new tab page",
+    "permissions": [
+        "tabs"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "manifest_version": 2
+}
