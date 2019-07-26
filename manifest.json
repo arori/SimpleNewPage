@@ -3,10 +3,15 @@
     "version": "1.0",
     "description": "Make simple new tab page",
     "permissions": [
-        "tabs"
+        "tabs",
+        "storage"
     ],
     "chrome_url_overrides": {
         "newtab": "index.html"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
     },
     "manifest_version": 2
 }
